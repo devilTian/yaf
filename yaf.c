@@ -45,12 +45,9 @@
 
 ZEND_DECLARE_MODULE_GLOBALS(yaf);
 
-/* {{{ yaf_functions[]
-*/
 zend_function_entry yaf_functions[] = {
 	{NULL, NULL, NULL}
 };
-/* }}} */
 
 /** {{{ PHP_INI_MH(OnUpdateSeparator)
  */
